@@ -39,8 +39,8 @@ read DOSETUPTWO
 if [[ $DOSETUPTWO =~ "y" ]] ; then
 
 searchcoin-cli stop > /dev/null 2>&1
-wget https://github.com/searchcoindev/srch-core/releases/download/1.0.0/searchcoind -O /usr/local/bin/searchcoind
-wget https://github.com/searchcoindev/srch-core/releases/download/1.0.0/searchcoin-cli -O /usr/local/bin/searchcoin-cli
+wget https://github.com/searchcoindev/srch-core/releases/download/1.3.0/searchcoind -O /usr/local/bin/searchcoind
+wget https://github.com/searchcoindev/srch-core/releases/download/1.3.0/searchcoin-cli -O /usr/local/bin/searchcoin-cli
 chmod +x /usr/local/bin/searchcoin*
 
 fi
